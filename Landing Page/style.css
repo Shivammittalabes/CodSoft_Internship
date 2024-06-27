@@ -1,0 +1,93 @@
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+    padding: 0px;
+    height: 60px;
+}
+.container-fluid{
+    height: 100%;
+}
+.navbar-nav .nav-link {
+    color: #fff;
+  }
+  .dropend .dropdown-toggle {
+    color: salmon;
+    margin-left: 1em;
+  }
+  .dropdown-item:hover {
+    background-color: salmon;
+    /* color: #brown; */
+  }
+  .dropdown .dropdown-menu {
+    display: none;
+  }
+  .dropdown:hover > .dropdown-menu,
+  .dropend:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0.125em;
+    margin-left: 0.125em;
+  }
+  @media screen and (min-width: 769px) {
+    .dropend:hover > .dropdown-menu {
+      position: absolute;
+      top: 0;
+      left: 100%;
+    }
+    .dropend .dropdown-toggle {
+      margin-left: 0.5em;
+    }
+  }
+.h-primary{
+    color: white;
+}
+.navbar-brand{
+    padding-left:50px ;
+}
+.navbar-brand img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+.nav-item{
+    padding-left:50px ;
+    font-weight: 500;
+}
+a.dropdown-item {
+    background-color: grey;
+}
+#home{
+    background: url(images/digital.png)no-repeat; 
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 20px;  
+}
+section#home h3,h1,p {
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+.textm {
+    margin-top: 80px;
+}
+section#new-section {
+    background-color: black;
+    color: white;
+    height: 500px;
+}
+button.btn.btn-success {
+    margin-bottom: 10px;
+}
+img {
+    width: 345px;
+}
+.new-image img {
+    width: 450px;
+    margin-top: 95px;
+}
+.container{
+    height: 300px;
+    
+}
+footer#foot-id {
+    height: 500px;
+}
+
